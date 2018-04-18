@@ -1,4 +1,4 @@
-Source: installer-data-antix
+Source: gazelle-installer-data
 Section: admin
 Priority: optional
 Maintainer: anticapitalista <anticapitalista@riseup.net>
@@ -7,8 +7,8 @@ Standards-Version: 3.9.8
 Vcs-Git: git://github.com/MX-Linux/installer-data-antix
 
 Package: installer-data-antix
-Depends: 
-Provides: installer-data
+Depends: antix-installer
+Provides: installer-data-antix
 Architecture: all
-Description: Branding and installer.conf data for mx/antiX installer
+Description: Branding and installer.conf data for antiX installer
 
